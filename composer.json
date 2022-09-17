@@ -1,0 +1,26 @@
+{
+    "name": "abcprintf/date-thai",
+    "description": "This is package format date for thai language",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abcprintf\\DateThai\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "abcprintf",
+            "email": "wh.cprintf@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "nesbot/carbon": "^2.62"
+    }
+}
