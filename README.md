@@ -2,6 +2,11 @@
 
 Show date in Thai and other languages.
 
+## Installation
+```sh
+composer require abcprintf/date-thai
+```
+
 ```php
 $dateThai = new DateThai("th");
 $dateThai->setDate(date("Y-m-d"));
